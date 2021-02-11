@@ -1,0 +1,13 @@
+{
+    "development": { "dialect": "sqlite", "storage": "TTCDatabase.db" },
+    "production": { 
+        "dialect": "mssql", 
+        "connection": { 
+          "server"  : "tastefullytiffanyscheesecakes.database.windows.net", 
+          "userName": "ajlongcoy21", 
+          "password": "Helena1291", 
+          "options": { "encrypt": true, "database": "TTC" }
+        }
+      }
+}
+  
